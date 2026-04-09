@@ -32,7 +32,7 @@ app.post('/pay', async (req, res) => {
     const payload = {
       amount,
       phone_number,
-      channel_id: 6189,
+      channel_id: 7000,
       provider: 'm-pesa',
       external_reference: 'INV-009',
       customer_name: 'Customer',
